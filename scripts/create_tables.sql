@@ -1,0 +1,12 @@
+-- DROP TABLE IF EXISTS tarefas;
+-- CREATE TABLE tarefas (
+--   id SERIAL PRIMARY KEY,
+--   titulo TEXT,
+--   status TEXT
+-- );
+
+-- DROP TABLE IF EXISTS usuarios;
+-- CREATE TABLE usuarios (
+--   id SERIAL PRIMARY KEY,
+--   username TEXT
+-- );
