@@ -33,6 +33,19 @@ Este projeto é parte de um trabalho acadêmico sobre técnicas avançadas de in
 
 ---
 
+## ▶️ Como reproduzir
+
+1. Crie um banco de dados PostgreSQL local
+2. Execute os scripts da pasta `scripts/` na seguinte ordem:
+   - `create_tables.sql`
+   - `populate_tarefas.sql`
+   - `populate_usuarios.sql`
+   - `indices.sql`
+   - `queries_explain_analyze.sql`
+3. Analise os planos de execução e compare os tempos
+
+---
+
 ## 🧪 Cenário 1: Índice Parcial em `tarefas.status`
 
 ### Objetivo
