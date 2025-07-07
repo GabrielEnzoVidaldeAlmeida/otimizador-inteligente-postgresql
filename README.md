@@ -64,7 +64,7 @@ Buscar tarefas com status `'pendente'`, mesmo com **98% dos registros como `'con
 | ------------------ | --------------------- | ------------------------------- |
 | 🔴 Sem índice      | 346,37 ms             | `Seq Scan`                      |
 | 🟡 Índice completo | 10,49 ms              | `Bitmap Index Scan`             |
-| 🟢 Índice parcial  | 10,19 ms              | `Bitmap Index Scan` (menor I/O) |
+| 🟢 Índice parcial  | 6,749 ms              | `Bitmap Index Scan` (menor I/O) |
 
 ---
 
@@ -79,7 +79,7 @@ Buscar tarefas com status `'pendente'`, mesmo com **98% dos registros como `'con
 
 ### Conclusão
 
-> O índice parcial é 100× menor que o completo, entrega **a mesma performance**, mas com **muito menos custo de manutenção e espaço**. É ideal quando só um subconjunto dos dados é buscado com frequência.
+> O índice parcial é 100× menor que o completo, entrega **uma performance melhor** e com **muito menos custo de manutenção e espaço**. É ideal quando só um subconjunto dos dados é buscado com frequência.
 
 ---
 
