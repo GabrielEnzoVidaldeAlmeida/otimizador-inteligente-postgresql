@@ -40,7 +40,7 @@ Este projeto é parte de um trabalho acadêmico sobre técnicas avançadas de in
    - `create_tables.sql`
    - `populate_tarefas.sql`
    - `populate_usuarios.sql`
-   - `indices.sql`
+   - `indexes.sql`
    - `queries_explain_analyze.sql`
 3. Analise os planos de execução e compare os tempos
 
